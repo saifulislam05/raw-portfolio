@@ -6,6 +6,7 @@
     --dark-gray: #8b97ad;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px auto;
@@ -33,6 +34,46 @@ hr {
     width: 100%;
     margin: auto;
 }
+
+/** links **/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    max-width: 140px;
+    padding: 0.6rem 1.2rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    margin: 1rem auto;
+    border-radius: 2rem;
+}
+
+.link-secondary {
+    max-width: 140px;
+    margin: 1rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+/** look into BEM naming convention for CSS **/
+
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
 /** navigation **/
 
 .navigation {
@@ -62,43 +103,6 @@ hr {
 
 .navigation .link-active {
     font-weight: bold;
-}
-
-/** lists **/
-
-.list-non-bullet {
-    list-style: none;
-    padding-inline-start: 0px;
-}
-
-.list-item-inline {
-    display: inline;
-    padding: 0rem 0.5rem;
-}
-
-/** links **/
-.link {
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-
-.link-primary {
-    max-width: 140px;
-    padding: 0.6rem 1.2rem;
-    background-color: var(--primary-color);
-    color: #fff;
-    margin: 1rem auto;
-    border-radius: 2rem;
-}
-
-.link-secondary {
-    max-width: 140px;
-    margin: 1rem;
-    padding: 0.6rem 1.2rem;
-    border-radius: 2rem;
-    border: 1px solid var(--primary-color);
-    color: var(--primary-color);
 }
 
 /** header **/
@@ -165,6 +169,48 @@ hr {
     padding-inline-start: 0px;
 }
 
+/** projects **/
+.showcase-list {
+    /* padding: 2rem; */
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.showcase-list h1 {
+    margin: 0.5rem;
+}
+
+.showcase-list p {
+    padding-bottom: 1rem;
+}
+
+/** blogs **/
+
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+
+@media (max-width: 900px) {
+    body {
+        max-width: 95%;
+        width: 100%;
+    }
+
+    .list-item-inline {
+        display: inline;
+        padding: 0rem;
+    }
+
+    .container-center {
+        width: auto;
+    }
+
+    .link-primary {
+        display: block;
+    }
+}
 @media (max-width: 900px) {
     body {
         max-width: 95%;
