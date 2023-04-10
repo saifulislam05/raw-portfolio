@@ -2,8 +2,8 @@
 
 :root {
     --primary-color: #166534;
-    --off-white: #f3f4f6;
-    --dark-gray: #6b7280;
+    --off-white: #16653497;
+    --dark-gray: #8b97ad;
 }
 
 body {
@@ -101,10 +101,6 @@ hr {
     color: var(--primary-color);
 }
 
-
-
-
-
 /** header **/
 
 .hero {
@@ -129,6 +125,22 @@ hr {
     color: var(--primary-color);
 }
 
+/** sections **/
+
+.section {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
 
 
 @media (max-width: 900px) {
