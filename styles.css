@@ -113,8 +113,8 @@ hr {
 }
 
 .hero .hero-img {
-    max-width: 80%;
-    width: 550px;
+    max-width: 50%;
+    width: 400px;
     display: block;
     margin: auto;
 }
