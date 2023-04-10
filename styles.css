@@ -129,68 +129,7 @@ hr {
     color: var(--primary-color);
 }
 
-/** sections **/
 
-.section {
-    padding: 2rem;
-    margin: 2rem 0;
-    border-radius: 1rem;
-    text-align: center;
-}
-
-.section h1 {
-    text-align: center;
-}
-
-.ow {
-    background-color: var(--off-white);
-}
-
-/** footers **/
-
-.footer {
-    background-color: var(--primary-color);
-    padding: 2rem 1rem;
-    text-align: center;
-    color: white;
-    border-top-right-radius: 1rem;
-}
-
-.footer .link {
-    color: white;
-}
-
-.footer .footer-header {
-    font-weight: bold;
-    font-size: large;
-}
-
-.footer ul {
-    padding-inline-start: 0px;
-}
-
-/** projects **/
-.showcase-list {
-    /* padding: 2rem; */
-    padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    margin: 3rem auto;
-}
-
-.showcase-list h1 {
-    margin: 0.5rem;
-}
-
-.showcase-list p {
-    padding-bottom: 1rem;
-}
-
-/** blogs **/
-
-.showcase-blog {
-    padding-bottom: 6rem;
-}
 
 @media (max-width: 900px) {
     body {
